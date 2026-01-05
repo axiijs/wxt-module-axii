@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "bundler",
+    "strict": true,
+    "lib": ["DOM", "WebWorker", "ESNext"],
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "jsx": "react"
+  },
+  "exclude": ["node_modules/**", "dist/**"]
+}

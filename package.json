@@ -1,0 +1,20 @@
+{
+  "name": "wxt-module-axii",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsdown"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.25.0",
+  "dependencies": {
+    "tsdown": "0.19.0-beta.2",
+    "wxt": "^0.20.13"
+  },
+  "type": "module",
+  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs"
+}
